@@ -1,0 +1,143 @@
+/* Default Font Setting  */
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+/* Header Part  Styles*/
+header,.footer{
+    background-color: #FFFBF0;
+}
+
+/* Navigation  */
+.logo img{
+    max-width: 290px;
+}
+ul.main-menu li {
+    padding: 0px 10px;
+}
+ul.main-menu li a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #3C3C3C;
+}
+ul.main-menu li a:hover {
+    transform: scale(1.1);
+    border-bottom: 2px solid tomato;
+    transition: all 0.4s ease;
+}
+/* Banner */
+.banner-left{
+    padding-right: 60px;
+}
+.banner-left h1 {
+    font-family: 'Bebas Neue',cursive;
+    font-size: 80px;
+    font-weight: 700;
+    color: #363958;
+}
+
+span.highlight {
+    color: #FABE4C;
+}
+
+.banner-left p ,.jacket-card p.card-text{
+    font-size: 16px;
+    line-height: 26px;
+    color: #3E3E3E;
+}
+
+ a.default-button{
+    font-size: 16px;
+    line-height: 16px;
+    color: #fff;
+    background: linear-gradient(#A4BC46, #85A01B);
+    border: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.banner-left a.default-button{
+    padding: 22px 54px;
+}
+
+a.default-button:hover {
+    background: linear-gradient(#85A019, #A4BC46);
+    transform: scale(1.1);
+}
+/* Woman Jacket Section Styles  */
+h2.section-title {
+    font-family: 'Bebas Neue',cursive;
+    font-size: 48px;
+    color: #363958;
+    padding-bottom: 30px;
+    }
+
+/* Card Styles  */
+.jacket-card{
+    padding: 20px;
+    min-height: 623px;
+    border: none;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.05);
+    border-radius: 20px;
+}
+.jacket-card:hover {
+    transform:translateY(-10px) scale(1.1);
+    transition:all 0.5s;
+}
+.jacket-card img {
+    background: #F1F1F1;
+    border-radius: 20px;
+    max-width: 310px;
+    max-height: 327px;
+    padding: 20px;
+}
+
+.jacket-card h5.card-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #363958;
+}
+.price p {
+    font-size: 36px;
+    color: #FABE4C;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+.jacket-card .price a.default-button{
+    padding: 18px 25px;
+}
+/* Advantage Section Styles */
+.advantage-block {
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.05);
+    padding: 20px;
+    border-radius: 20px;
+}
+.advantage-block img {
+    max-width: 100px;
+}
+
+.advantage-description {
+    padding-left: 30px;
+}
+
+/* Footer Section Styling  */
+h3.footer-block-title {
+    border-bottom: 2px solid #ff634761;
+    padding-bottom: 10px;
+}
+
+.footer-1 p {
+    padding-top: 20px;
+}
+.footer-2 ul li,.footer-3 ul li {
+    list-style: none;
+    padding: 4px 0px;
+}
+
+.footer-2 ul li a {
+    color: #333;
+}
+.footer-3 ul li i{
+    padding: 5px;
+}

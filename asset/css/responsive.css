@@ -1,0 +1,25 @@
+@media only screen and (max-width: 768px){
+    .banner-right img{
+        margin-top: 40px;
+    }
+    .jacket-card img{
+        max-width: 100%;
+        max-height: auto;
+    }
+    .jacket-card{
+        margin-bottom: 30px;
+    }
+    .response-reverse{
+        flex-direction: column-reverse;
+    }
+    .advantage-right-part img {
+        margin-bottom: 30px;
+    }
+    .advantage-block{
+        flex-direction: column;
+    }
+    .advantage-description{
+        text-align: center;
+        padding-top: 30px;
+    }
+}
